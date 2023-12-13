@@ -90,12 +90,12 @@ h2{
     display: flex;
     flex-direction: column;
     height: 20px;
-    color:black;
+    color:rgb(245, 242, 242);
     text-align: center;
 
 }
 
 
 .main .h1{
-    color: black;
+    color:white;
 }
