@@ -51,7 +51,7 @@ h2{
     
 }
 .main{
-    height: 1500px;
+    height: 1000px;
     display: flex
     ;
     flex-direction: column;
