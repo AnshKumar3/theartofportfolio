@@ -3,19 +3,10 @@
   body{
     height: 100vh;
     background: black;
-    
 }
 *{
     font-family: 'Poppins';
 }
-
-
-
-
-
-
-
-
 .navbar{
     display: flex;
     align-items: center;
@@ -27,7 +18,6 @@
 h2{
     background-color: darkgray;
 }
-
 .navbar ul{
     display: flex;
 }
@@ -37,13 +27,11 @@ h2{
     color: white;
     transition: color 0.3s ease;
 }
-
 .navbar ul li:hover a{
     color: #ffb742;
 }
 .navbar ul li:last-child a{
     margin: 0;
-
 }
 .hire-btn{
     background: #ffb742;
@@ -66,15 +54,10 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
-
 .main img{
     height: 440px;
-
-
 }
-
 .main h4{
     margin-top: 70px;
     font-size: 32px;
@@ -90,6 +73,10 @@ h2{
     color: #ff9d00;
     text-decoration: underline;
 }
+.navbar button a{
+    text-decoration: none;
+    color: black;
+}
 .main p.title{
     
     
@@ -101,22 +88,7 @@ h2{
     height: 20px;
     color:rgb(245, 242, 242);
     text-align: center;
-
 }
-
-
 .main .h1{
     color:white;
 }
-::-webkit-scrollbar{
-    background-color:black;
-    width: 20px;
-}
-::-webkit-scrollbar-thumb{
-    
-    background: linear-gradient(#4158D0,#C850C0,#FFCC70);
-    
-    border-radius: 50%;
-}
-
-
