@@ -48,7 +48,7 @@ h2{
     
 }
 .main{
-    height: 1000px;
+    height: 1200px;
     display: flex
     ;
     flex-direction: column;
@@ -57,6 +57,7 @@ h2{
 }
 .main img{
     height: 440px;
+
 }
 .main h4{
     margin-top: 70px;
@@ -104,4 +105,19 @@ h2{
 }
 div{
     height :8000px;
+}.footer{
+    color: rgb(240, 145, 20);
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+padding: 20px;
+    background-color: aliceblue;
+    width: 1335px;
+
 }
+
+
+
+
+
