@@ -6,7 +6,6 @@
     display:inline-flexbox;
     width: 100%;
     height: 100%;
-    overflow: hidden;
 }
 *{
     font-family: 'Poppins';
@@ -59,7 +58,7 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    overflow: auto;
 }
 .main img{
     height: 440px;
