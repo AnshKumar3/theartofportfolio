@@ -48,7 +48,7 @@ h2{
     
 }
 .main{
-    height: 1200px;
+    height: 1000px;
     display: flex
     ;
     flex-direction: column;
@@ -116,7 +116,6 @@ padding: 20px;
     width: 100%;
     margin-left: auto;
   margin-right: auto;
-
 }
 
 
