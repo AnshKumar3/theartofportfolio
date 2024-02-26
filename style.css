@@ -3,15 +3,20 @@
   body{
     height: 100vh;
     background: black;
+    display:inline-flexbox;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 *{
     font-family: 'Poppins';
 }
 .navbar{
     display: flex;
+    width: 95%;
     align-items: center;
     justify-content: space-between;
-    height: 30px;
+    height: 20px;
     padding: 50px 50px;
 
 }
@@ -49,11 +54,12 @@ h2{
 }
 .main{
     height: 1000px;
-    display: flex
-    ;
+    display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 .main img{
     height: 440px;
@@ -120,6 +126,8 @@ padding: 20px;
  main .subtitle{
 margin-top: 1px;
 }
-
+div{
+    display: inline-block;
+}
 
 
