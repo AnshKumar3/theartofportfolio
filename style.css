@@ -6,17 +6,19 @@
     display:inline-flexbox;
     width: 100%;
     height: 100%;
+    margin:0;
 }
 *{
     font-family: 'Poppins';
 }
 .navbar{
     display: flex;
-    width: 95%;
+    width: 92%;
     align-items: center;
     justify-content: space-between;
     height: 20px;
     padding: 50px 50px;
+    margin:0;
 
 }
 h2{
@@ -58,7 +60,8 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow: auto;
+    
+    margin: 0;
 }
 .main img{
     height: 440px;
@@ -117,7 +120,7 @@ div{
     justify-content: center;
 padding: 20px;
     background-color: aliceblue;
-    width: 100%;
+    width: 92%;
     margin-left: auto;
   margin-right: auto;
 }
