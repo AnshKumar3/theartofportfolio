@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
   body{
+    
     height: 100vh;
     background: black;
     display:inline-flexbox;
@@ -19,6 +20,9 @@
     height: 20px;
     padding: 50px 50px;
     margin:0;
+    position:fixed;
+    overflow:hidden;
+    background-color: black;
 
 }
 h2{
@@ -62,6 +66,8 @@ h2{
     justify-content: center;
     overflow: hidden;
     margin: 0;
+    padding-top: 130px;
+    overflow:hidden;
 }
 .main img{
     height: 440px;
@@ -99,6 +105,7 @@ h2{
 }
 .main .h1{
     color:white;
+    overflow: hidden;
 }
 
 ::-webkit-scrollbar{
@@ -112,6 +119,7 @@ h2{
 }
 div{
     height :8000px;
+    overflow: hidden;
 }.footer{
     color: rgb(240, 145, 20);
     height: 100px;
@@ -129,6 +137,7 @@ margin-top: 1px;
 }
 div{
     display: inline-block;
+    overflow: hidden;
 }
 
 
